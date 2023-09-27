@@ -1,0 +1,52 @@
+
+
+.card{
+    width: 300px;
+    height:420px ;
+    border: 2px solid gray;
+    
+}
+.photo{
+    width: 300px;
+    height: 250px;
+    border-start-start-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-btn{
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+.home-container{
+    display: flex;
+    gap: 45px;
+ 
+
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    gap: 15px;
+    /* width: 600px; */
+   
+
+}
+.A{
+    font-size: 16px;
+font-style: normal;
+font-weight: 900;
+text-align: center;
+
+}
+.B{
+    font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
