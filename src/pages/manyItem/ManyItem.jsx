@@ -2,25 +2,26 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import CardsCars from '../../components/Cards/CardsCars';
 
 const ManyItem = () => {
 
-    const[phone, setPhone]=useState()
+    const[card, setcart]=useState({});
 
     const {ID}=useParams();
-    console.log(ID);
+    
 
-    const card= useLoaderData();
-    console.log(card)
+    const cards= useLoaderData();
+    
     useEffect(()=>{
-        const findCard = card.find(card=>card.ID==ID)
-        console.log(findCard)
+        const findCard = cards.find((card)=>card.ID==ID)
+        setcart(findCard)
 
-    },[ID, card])
+    },[ID, cards])
     return (
-        <div>
-            Many item
-        </div>
+       <div>
+        <CardsCars card={card}></CardsCars>
+       </div>
     );
 };
 
