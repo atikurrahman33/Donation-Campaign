@@ -1,20 +1,11 @@
+Project Title
 Donation Campaign
 
-Features
-Item Exploration:
+Project Features
+In this project, you donate to support people and can view item details.
 
-Browse through a list of items available for donation.
-Click on an item to view detailed information.
-Donation Process:
+When you click an item, you can see detailed information, including the donation price displayed on the item image.
 
-Each item displays a donation price on its image.
-Click the "Donate" button to contribute the specified amount.
-*Donated items are added to your donation list.
-Donation List:
+Clicking the donate price adds the item to your donation list, allowing you to keep track of your contributions.
 
-View a list of items you've donated.
-Keep track of your contributions.
-Statistics:
-
-Navigate to the statistics section to visualize donation distribution.
-A pie chart shows the percentage of each donated item relative to the total sum of donations.
+To check your overall impact, you can navigate to the statistics section, where you'll find a visualization of the donation distribution.
