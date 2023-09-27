@@ -11,7 +11,7 @@ const Statistics = () => {
       ];
      
     return (
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center jus'>
              <PieChart width={400} height={400}>
           <Pie
             dataKey="value"

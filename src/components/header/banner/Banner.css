@@ -1,0 +1,10 @@
+.banner{
+    height:400px;
+    background: url("https://i.ibb.co/0tkSPw7/FB-IMG-1695648787989.jpg");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    linear-gradient:(rgba(0,0,0,0),rgba(0,0,0,6))
+
+}

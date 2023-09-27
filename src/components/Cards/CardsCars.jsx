@@ -48,7 +48,7 @@ const CardsCars = ({ card }) => {
             <div className="cards">
               <div className="card-content">
                 <div className="card-img">
-                  {/* Image with black overlay at the bottom */}
+               
                   <div className="image-overlay"></div>
                   <img className="photo" src={card.Image} alt="" />
                   <div className="button-overlay">
@@ -58,7 +58,7 @@ const CardsCars = ({ card }) => {
                   </div>
                 </div>
                 <div className="p-8">
-                  {/* Title and Description */}
+                 
                   <p className="B">{card.Title}</p>
                   <h2 className="A">{card.Description}</h2>
                   {/* Donate Button */}
