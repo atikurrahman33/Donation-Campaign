@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import Cards from "../../components/cards/cards";
-import CardsCars from "../../components/Cards/CardsCars";
+import DonationCard from "./DonationCard";
+
+
 
 
 
@@ -24,9 +25,9 @@ console.log(test)
         <div>
         {nodata ? <p className="h-[80vh] flex justify-center items-center">{nodata} </p> : <div>
 
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                 {
-                    test.map(card=> <CardsCars key={card.ID} card={card}></CardsCars> )
+                    test.map(card=> <DonationCard key={card.id} card={card}></DonationCard> )
                 }
             </div>
 
